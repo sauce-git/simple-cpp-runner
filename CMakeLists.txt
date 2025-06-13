@@ -11,9 +11,7 @@ find_package(OpenCV REQUIRED)
 
 add_executable(
     main
-    ${SOURCE_DIR}/p7.main.cpp
-    ${SOURCE_DIR}/filter.cpp
-    ${SOURCE_DIR}/filter.hpp
+    ${SOURCE_DIR}/main.cpp
 )
 
 target_include_directories(main PRIVATE ${SOURCE_DIR})
